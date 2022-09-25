@@ -1,0 +1,246 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+nav ul{
+	text-align: right;
+	padding-top: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+	padding: 20px;
+	cursor: pointer;
+	
+}
+nav ul li a{
+	font-weight: 500;
+	font-size: 16px;
+	color: white;
+	position: relative;
+	width: 0;
+
+	
+}
+
+
+nav li a::after{
+	content: ""; 
+	position: absolute;   
+   height: 5px;
+   width: 0;
+  bottom: 0;
+  left: 0;
+   background-color: white;
+     transition: all 0.5s;
+	
+}
+
+
+nav li a:hover::after{
+	width: 100%;
+
+}
+.hero .heroimg	{
+	position: relative;
+}
+.hero  .heroimg img{
+	margin-top: -40px;
+	position: absolute;
+	right: 0;
+	height: 100vh;
+
+	
+	
+}
+
+.hero .heroimg h1{
+	font-size: 52px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+.hero .heroimg p{
+	font-size: 36px;
+	color: white;
+	 margin-bottom : 50px;
+	
+}
+.hero .heroimg i{
+	margin-right: 20px;
+	
+}
+.hero .heroimg a{
+	
+    padding: 10px;
+	 background-color: black;
+	 color: white;
+	 width: 50px;
+      border-radius: 30px;
+transition: all 2s;	  
+	 
+}
+.hero .heroimg a:hover{
+	background: linear-gradient(orange,white,green);
+	color: black;
+	font-weight: bold;
+}
+/* ============================================== */
+
+.feature-info{
+	padding: 85px 0 100px;
+}
+.feature-info h1{
+	 font-size: 52px;
+	color: #8a8a8a;
+	margin-bottom: 50px;
+}
+.info-features{
+	text-align: center;
+}
+.info-features p{
+	font-size: 22px;
+	font-weight: 500;
+	color: #3a3a3a;
+
+}
+.info-features h2{
+	margin: 35px 0 45px; 
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #1a1a1a;
+	font-weight: bold;
+	text-align: center;
+}
+img{
+	object-fit: cover;
+}
+.info-features .para{
+	font-size: 18px;
+	color: #646464;
+	font-weight: 400;
+	text-align: center;
+	
+}
+/* ============================================== */
+.chocolate{
+
+	padding: 190px 0 175px;
+    background-image: url(../img/chocolate-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.chocolate h1{
+	font-size: 52px;
+	color: white;
+}
+.ctn-content p{
+	font-size: 24px;
+	font-weight: bold;
+	color: #585858;
+	width: 60%;
+	margin-top: 64px;
+	margin-bottom: 62px;
+}
+.ctn-content span{
+	color: #f55150;
+}
+.ctn-content a{
+	background-color:#f55150;
+	display: inline-block;
+	padding: 20px;
+	border-radius:30px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 0.7s;
+}
+.ctn-content a:hover{
+	  background: white;
+	  color: #f55150;
+}
+/* =============================================== */
+
+.footer{
+	padding: 124px 0 140px;
+	background-color: #2e2e38;
+}
+
+
+.footer-list h3{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 35px;
+}
+.box{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	background-color: red;
+}
+.footer-list ul li div{
+	 float: left;
+}
+.footer-list ul li{
+	display: table;
+	clear: both;
+	width: 100%;
+}
+.footer-list ul li{
+	margin-bottom: 35px;
+}
+.footer-list p {
+	font-size: 15px;
+	color: white;   
+}
+.footer-list .para{
+	padding-top: 10px;	
+} 
+.footer-twitter ul li{
+	font-size: 15px;
+	color: white;
+	margin-bottom: 60px;
+	font-weight: 500;
+}
+.footer-twitter ul li p{
+	font-size: 11px;
+	font-weight: 500;
+	color: white;
+}
+.footer-list .para{
+	font-size: 15px;
+	color: white;
+	width: 70%;
+}
+.footerend{
+	padding: 40px 0;
+	background: #d7dedc;
+}
+.footerend1 .para1 p{
+	display: inline-block;
+	padding-right: 30px;
+	border-right: 1px solid black;
+	margin-right: 60px;
+     
+}
+.footerend1  .font-img{
+     display: inline-block;
+	height: 30px;
+	
+}
+.footerend1  .font-img i{
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 30px;
+	background-color: blue;
+	color: white;
+}
